@@ -348,7 +348,7 @@ a:hover {
         display: block;
     }
     #projects {
-        max-height: 300vh;
+        max-height: 300px;
     
        }
     
@@ -436,6 +436,9 @@ a:hover {
   
    #skills{
     height: 160vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
    .boxcontainer{
     display: grid;
