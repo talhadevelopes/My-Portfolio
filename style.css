@@ -340,7 +340,7 @@ a:hover {
     color: orangered;
  }
  /*-----------RESPONSIVE--------------*/
-@media (max-width:500px){
+@media  screen and (max-width:500px){
     body {
         overflow-x: hidden;
     }
@@ -442,7 +442,7 @@ a:hover {
    }
    
    #projects{
-    height: 200vh;
+    height: 270vh;
 
    }
    .cardcontainer{
