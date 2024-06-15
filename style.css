@@ -348,7 +348,7 @@ a:hover {
         display: block;
     }
     #projects {
-        height: 200vh;
+        height: 230vh;
     
        }
     
@@ -435,7 +435,7 @@ a:hover {
    }
   
    #skills{
-    height: 110vh;
+    height: 130vh;
    }
    .boxcontainer{
     display: grid;
