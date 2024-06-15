@@ -340,7 +340,7 @@ a:hover {
     color: orangered;
  }
  /*-----------RESPONSIVE--------------*/
-@media  screen and (max-width:500px){
+@media screen and (max-width:500px){
     body {
         overflow-x: hidden;
     }
@@ -441,10 +441,7 @@ a:hover {
     background-color:transparent;
    }
    
-   #projects{
-    height: 270vh;
 
-   }
    .cardcontainer{
     display: flex;
     flex-direction: column;
@@ -459,6 +456,12 @@ a:hover {
     padding-left: 100px;
     gap: 30px;
 }
+
+#projects {
+    height: 270vh;
+
+   }
+   
 #contact{
     height: 60vh;
     margin-top: 90px;
