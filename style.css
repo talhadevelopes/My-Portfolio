@@ -100,14 +100,14 @@ a:hover {
 #skills {
     background-color: #1B2127;
     max-width: 100%;
-    height: 110vh;
+    height: 90vh;
     color: white;
 }
 
 #projects {
     background-color: #22646d;
     max-width: 100%;
-    height: 140vh;
+    height: 100vh;
   
 }
 
@@ -348,7 +348,10 @@ a:hover {
     justify-content: left;
     margin-top: 5vh;
     margin-left: 10vw;
+   
 }
+
+
 /*-----------SKILLS--------------*/
  .box img{
     font-size: 10px;
@@ -462,13 +465,22 @@ a:hover {
         display: block;
     }
     #projects {
-        height: 230vh;
+        height: 260vh;
     
        }
-    
+      
+    .vertical-line {
+        height: 190%;
+        left: 10%;
+        top: 30px;
+        
+      }
     #contact{
         height: 60vh;
         margin-top: 0px;
+    }
+    hr {
+        display: none;
     }
 
     ul{
@@ -561,8 +573,9 @@ a:hover {
     left: 30px; 
 }
  hr {
-    display: none;
+    z-index: 3;
     }
+
    .education1 {
     width: 80%;
     font-size: small;

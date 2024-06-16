@@ -4,3 +4,4 @@ var typed = new Typed('.coloredonly', {
     backSpeed: 100,
     loop: true
 });
+
