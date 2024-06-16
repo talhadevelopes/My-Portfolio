@@ -129,7 +129,7 @@ a:hover {
 }
 
 .icons i{
-    font-size: 40px;
+    font-size: 35px;
     margin-right: 30px;
 }
 
@@ -172,16 +172,7 @@ a:hover {
     letter-spacing: 0.5px;
     
 }
-.homeleft button{
-    padding: 15px 30px;
-    border-radius: 20px;
-    border-color: white;
-    font-weight: bold;
-    margin: 20px;
-    position: relative;
-    left: -20px;
-   
-}
+
 
 .button {
     -moz-appearance: none;
@@ -455,7 +446,7 @@ a:hover {
  /*-----------RESPONSIVE--------------*/
 @media screen and (max-width:500px){
     * {
-        overflow-y: ;
+        overflow-x: hidden ;
     }
     
     body {
@@ -471,7 +462,7 @@ a:hover {
     
     #contact{
         height: 60vh;
-        margin-top: 40px;
+        margin-top: 0px;
     }
 
     ul{
@@ -501,21 +492,69 @@ a:hover {
     height: 120vh;
 
    }
-   .homecontent{
+
+   .button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    color: #0f1923;
+    cursor: pointer;
+    position: relative;
+    padding: 8px;
+    margin-top: 4%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 1%;
+    transition: all .15s ease;
+  }
+.icons {
+    width: 75%;
+    height: auto;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+.homecontent {
     display: flex;
-    flex-direction: column-reverse;
-   }
-   .homeright img{
+    width: 100%;
+    margin-left: 50%;
+    margin-right: 50%;
+    flex-direction: column-reverse; 
+
+}
+
+.homeright {
     position: relative;
-    top: -150px;
-    width: 300;
-    left: 150px;
-   }
-   .homeleft{
+    width: auto;
+    height: auto; 
+    overflow: hidden;
+    margin-right: 20%;
+}
+
+.homeright img {
     position: relative;
-    top: -150px;
-    left: 190px;
-   }
+    top: 20px; 
+    width: 300px; 
+    height: 300px;
+    left: 0%; 
+    overflow: hidden; 
+    
+}
+
+
+.homeleft {
+    position: relative;
+    top: 0px; 
+    left: 20px; 
+}
+
    .education1 {
     width: 80%;
     font-size: small;
@@ -528,7 +567,8 @@ a:hover {
     display: block;
    }
    .webdev h1{
-    display: block;
+    width: 100%;
+    display: flex;
    }
    
    #aboutme{
